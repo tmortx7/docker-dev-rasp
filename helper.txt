@@ -1,1 +1,1 @@
-docker-compose run --rm --service-ports raspberry-dev-env
+docker-compose run --rm --service-ports pi-dev-env

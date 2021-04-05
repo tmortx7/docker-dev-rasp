@@ -1,9 +1,11 @@
 version: "3"
 services:
-  nod_dev_env:
+  pi-dev-env:
     build: .
-    container_name: raspberry-dev-env
+    container_name: piContainer
     ports:
       - 8080:3000
+      - 5432:5432
+      - 6379:6379
     volumes:
       - ./:/home/app
